@@ -53,7 +53,7 @@ CREATE TABLE `users` (
   `lname` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `password` varchar(300) DEFAULT NULL,
-  `contactno` varchar(11) DEFAULT NULL,
+
   `posting_date` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -61,8 +61,8 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `fname`, `lname`, `email`, `password`, `contactno`, `posting_date`) VALUES
-(13, 'Anuj', 'Kumar', 'phpgurukulteam@gmail.com', 'Test@123', '1234567890', '2021-08-09 18:30:00');
+INSERT INTO `users` (`id`, `fname`, `lname`, `email`, `password`, `posting_date`) VALUES
+(13, 'Rajnandan', 'Kushwaha', 'rajnandanweb@gmail.com', 'Raj@1998', '2021-08-09 18:30:00');
 
 --
 -- Indexes for dumped tables
