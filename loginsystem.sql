@@ -62,7 +62,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fname`, `lname`, `email`, `password`, `posting_date`) VALUES
-(13, 'Rajnandan', 'Kushwaha', 'rajnandanweb@gmail.com', 'Raj@1998', '2021-08-09 18:30:00');
+(13, 'Rajnandan', 'Kushwaha', 'rajnandanweb@gmail.com', 'Raj@1998', '2022-10-30 18:30:00');
 
 --
 -- Indexes for dumped tables
